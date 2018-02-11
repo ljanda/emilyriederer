@@ -38,28 +38,14 @@ pygmentsCodefencesGuessSyntax = true
 #  desc = "Hexagon"
 
 [Author]
-  name = "Some Person"
-  website = "yourwebsite.com"
-  email = "youremail@domain.com"
-  facebook = "username"
-  googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
-  github = "username"
-  gitlab = "username"
-  twitter = "username"
-  reddit = "username"
-  linkedin = "username"
-  xing = "username"
+  name = "Emily Riederer"
+  website = "emilyriederer.netlify.com"
+  email = "emilyriederer@gmail.com"
+  facebook = "emilyriederer"
+  github = "emilyriederer"
+  twitter = "emilyriederer"
+  linkedin = "emilyriederer"
   stackoverflow = "users/XXXXXXX/username"
-  snapchat = "username"
-  instagram = "username"
-  youtube = "user/username" # or channel/channelname
-  soundcloud = "username"
-  spotify = "username"
-  bandcamp = "username"
-  itchio = "username"
-  vk = "username"
-  paypal = "username"
-  telegram = "username"
 
 [[menu.main]]
     name = "Blog"
