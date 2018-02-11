@@ -1,7 +1,7 @@
-baseurl = "https://username.github.io"
+baseurl = "https://emilyriederer.netlify.com"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
-title = "Beautiful Hugo"
+title = "Emily Riederer"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
@@ -15,8 +15,8 @@ pygmentsCodefencesGuessSyntax = true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [Params]
-  subtitle = "Build a beautiful and simple website in minutes"
-  logo = "img/avatar-icon.png"
+  subtitle = "All things data - the art and the science"
+  logo = "/EmilyRiederer.jpg"
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
