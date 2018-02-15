@@ -17,7 +17,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [Params]
   subtitle = "All things data - the art and the science"
   logo = "/EmilyRiederer.jpg"
-  favicon = "img/favicon.ico"
+  favicon = "/favicon.png"
   dateFormat = "January 2, 2006"
   commit = false
   rss = true
