@@ -15,7 +15,7 @@ pygmentsCodefencesGuessSyntax = true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [Params]
-  subtitle = "All things data - the art and the science"
+  subtitle = "Maximum Likelihood Emily"
   logo = "/EmilyRiederer.jpg"
   favicon = "/favicon.png"
   dateFormat = "January 2, 2006"
