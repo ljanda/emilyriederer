@@ -1,0 +1,67 @@
+/* Make posts wider on large screens */
+/*Source: https://github.com/fgimian/fgimian.github.io/blob/source/blog/static/css/custom.css*/ 
+
+/* --- General --- */
+
+/* Style links */
+a:hover,
+a:focus {
+  color: #003366;
+  text-decoration: none;
+}
+
+/* Make posts wider on large screens */
+@media (min-width: 1200px) {
+  .col-lg-8 {
+    width: 99%;
+  }
+
+  .col-lg-offset-2 {
+    margin-left: 0.5%;
+  }
+}
+
+/* --- Navbar --- */
+
+/* Navbar strip */
+.navbar-custom {
+  background: #cce5ff;
+}
+
+/* Navbar link items and heading */
+.navbar-custom .navbar-brand,
+.navbar-custom .nav li a {
+  font-weight: bolder;
+  font-size: 1.25em;
+  color: #b3b3cc;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus ,
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: #003366;
+}
+
+/* Align the left and right padding of the navbar */
+.navbar-custom .container-fluid {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/* --- Footer --- */
+
+/* Footer strip */
+footer {
+  background: #cce5ff;
+}
+
+/* Footer links */
+footer a {
+  color: #b3b3cc;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #003366;
+}
