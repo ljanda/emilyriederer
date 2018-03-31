@@ -1,6 +1,6 @@
 ---
-title: Tech Talks
-comments: false
+title: "Tech Talks"
+comments: no
 ---
 
 I really enjoy sharing ideas - whether that be in person, in direct messages, on Twitter threads, etc. Here, I share materials from these talks. Please reach out if you're interested to talk more about any of these topics!
@@ -19,7 +19,9 @@ Slides on [Slideshare](https://www.slideshare.net/EmilyRiederer/whats-in-your-wo
 
 <p/>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8UDp7h16QsY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<center>
+<iframe width="736" height="414" src="https://www.youtube.com/embed/8UDp7h16QsY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</center>
 
 ### tidycf: turning business analysis on its side by turning cashflows on their heads {#tidycf}
 [*rstudio::conf, January 2018 in San Diego, CA*](https://www.rstudio.com/conference/)   
