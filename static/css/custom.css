@@ -3,11 +3,41 @@
 
 /* --- General --- */
 
-/* Style links */
+/*Size of title*/
+.intro-header .page-heading h1 {
+  font-size: 300%;
+}
+
+/* Main post body */
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 200%;
+  line-height: 1.5;
+  color: #5b5b5b;
+  background: #f9f9f9;
+}
+
+/* Headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  margin-bottom: 20px;
+  color: #5b5b5b;
+}
+
+
+/* Links */
+a {
+  color: #5b5b5b;
+}
+
 a:hover,
 a:focus {
   color: #003366;
-  text-decoration: none;
 }
 
 /* Make posts wider on large screens */
@@ -19,6 +49,17 @@ a:focus {
   .col-lg-offset-2 {
     margin-left: 0.5%;
   }
+}
+
+/* Selected text and images */
+::-moz-selection {
+  color: white;
+  background: #003366;
+}
+
+::selection {
+  color: white;
+  background: #003366;
 }
 
 /* --- Navbar --- */
@@ -33,7 +74,7 @@ a:focus {
 .navbar-custom .nav li a {
   font-weight: bolder;
   font-size: 1.25em;
-  color: #b3b3cc;
+  color: #5b5b5b;
 }
 
 .navbar-custom .navbar-brand:hover,
@@ -58,7 +99,7 @@ footer {
 
 /* Footer links */
 footer a {
-  color: #b3b3cc;
+  color: #5b5b5b;
 }
 
 footer a:hover,
