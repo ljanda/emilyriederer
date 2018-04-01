@@ -90,6 +90,13 @@ a:focus {
   padding-right: 25px;
 }
 
+/* Make the avatar image a little bigger */
+@media only screen and (min-width: 768px) {
+  .navbar-custom .avatar-container {
+    width: 150px;
+  }
+}
+
 /* --- Footer --- */
 
 /* Footer strip */
@@ -105,4 +112,13 @@ footer a {
 footer a:hover,
 footer a:focus {
   color: #003366;
+}
+
+/* --- Post and page layout --- */
+
+/* Push down posts a little to ensure no overlap with the larger avatar */
+.intro-header .post-heading h1,
+.intro-header .page-heading h1,
+.intro-header .tags-heading h1 {
+  padding-top: 50px;
 }
