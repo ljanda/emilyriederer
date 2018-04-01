@@ -10,7 +10,7 @@ I really enjoy sharing ideas - whether that be in person, in direct messages, on
 - [What's in your Workflow?: Data science workflows for business analysis](#wiyw)
 - [tidycf: Turning business analysis on its head by turning cashflows on their sides](#tidycf)
 
-### What's in your Workflow?: Data science workflows for business analysis {#wiyw}
+## What's in your Workflow?: Data science workflows for business analysis {#wiyw}
 [*Domino Data Pop-Up, November 2017 in Chicago, IL*](https://popup.dominodatalab.com/chicago/)
 
 While business analysis rapidly grows more data-driven, the analyst community is slow to adapt the best practices of data science workflows. Many parallels exists between data science “hot topics” (e.g. reproducibility) and business pain points, but these common needs are obscured by the different “languages” of these two communities. The opportunity cost is greatest in heavily regulated industries such as finance and insurance where documentation and compliance are paramount.
@@ -19,11 +19,13 @@ Slides on [Slideshare](https://www.slideshare.net/EmilyRiederer/whats-in-your-wo
 
 <p/>
 
-<center>
-<iframe width="736" height="414" src="https://www.youtube.com/embed/8UDp7h16QsY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</center>
+<div style="position:relative; width:80%; height:0px; padding-bottom:56.25%;">
+    <iframe style="position:absolute; left:0; top:0; width:100%; height:100%"
+        src="https://www.youtube.com/embed/8UDp7h16QsY?rel=0">
+    </iframe>
+</div>
 
-### tidycf: turning business analysis on its side by turning cashflows on their heads {#tidycf}
+## tidycf: turning business analysis on its side by turning cashflows on their heads {#tidycf}
 [*rstudio::conf, January 2018 in San Diego, CA*](https://www.rstudio.com/conference/)   
 *Similar talks given at* [*EARL Boston 2017*](https://earlconf.com/2017/boston/) *and RLadies Chicago*  
 
@@ -35,4 +37,3 @@ The resulting package goes beyond “getting stuff done”. tidycf also increase
 
 Video on [RStudio website](https://www.rstudio.com/resources/videos/tidycf-turning-analysis-on-its-head-by-turning-cashflows-on-their-sides/)  
 Slides on [Slideshare](https://www.slideshare.net/EmilyRiederer/tidycf-turning-cashflows-on-their-sides-to-turn-analysis-on-its-head)
-
