@@ -117,8 +117,10 @@ footer a:focus {
 /* --- Post and page layout --- */
 
 /* Push down posts a little to ensure no overlap with the larger avatar */
+@media (min-width: 1200px){
 .intro-header .post-heading h1,
 .intro-header .page-heading h1,
 .intro-header .tags-heading h1 {
   padding-top: 50px;
+}
 }
