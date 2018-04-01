@@ -124,3 +124,18 @@ footer a:focus {
   padding-top: 50px;
 }
 }
+
+/* Code blocks and inline code */
+pre,
+code {
+  font-size: 18px;
+}
+
+pre {
+  border: 0;
+  line-height: 1.5 !important;
+}
+
+code {
+  white-space: pre !important;
+}
