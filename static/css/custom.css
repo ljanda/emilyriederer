@@ -37,7 +37,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #ffffff;
+  color: #f9f9f9;
 }
 
 /* Make posts wider on large screens */
@@ -81,7 +81,7 @@ a:focus {
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #ffffff;
+  color: #f9f9f9;
 }
 
 /* Align the left and right padding of the navbar */
@@ -111,7 +111,7 @@ footer a {
 
 footer a:hover,
 footer a:focus {
-  color: #ffffff;
+  color: #f9f9f9;
 }
 
 /* --- Post and page layout --- */
