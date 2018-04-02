@@ -6,3 +6,4 @@ public
 emilyriederer.Rproj
 content/page/*.html
 make_favicon.R
+make_background.R
