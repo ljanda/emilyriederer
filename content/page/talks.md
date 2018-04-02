@@ -38,8 +38,19 @@ Reimagining cashflow statements as tidy data facilitates a simple, efficient, an
 
 The resulting package goes beyond “getting stuff done”. tidycf also increases quality, reproducibility, and creativity of analysis; ensures consistency and knowledge transfer; reduces the burdens of documentation and regulation; and speeds innovation and time-to-market – all while guiding less-technical analysts through an immersive crash course to R and the tidyverse.
 
-Video on [RStudio website](https://www.rstudio.com/resources/videos/tidycf-turning-analysis-on-its-head-by-turning-cashflows-on-their-sides/)  
 Slides on [Slideshare](https://www.slideshare.net/EmilyRiederer/tidycf-turning-cashflows-on-their-sides-to-turn-analysis-on-its-head)
+Other rstudio::conf talks on the [RStudio website](https://www.rstudio.com/resources/webinars/#rstudioconf2018)
+
+<p/>
+
+<div style="position:relative; width:80%; height:0px; padding-bottom:56.25%;">
+    <iframe style="position:absolute; left:0; top:0; width:100%; height:100%"
+        src="https://www.youtube.com/embed/T0pp8n-OSqM">
+    </iframe>
+</div>
+
+<p/>
+
 
 ## Designing Empathetic and Empowering Internal Tools {#eee}
 
