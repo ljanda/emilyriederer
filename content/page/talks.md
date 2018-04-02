@@ -9,7 +9,7 @@ I really enjoy sharing ideas - whether that be in person, in direct messages, on
 
 - [What's in your Workflow?: Data science workflows for business analysis](#wiyw)
 - [tidycf: Turning business analysis on its head by turning cashflows on their sides](#tidycf)
-- [Designing empathetic internal tools](#eee)
+- [Designing empathetic and empowering internal tools](#eee)
 
 ## What's in your Workflow?: Data science workflows for business analysis {#wiyw}
 [*Domino Data Pop-Up, November 2017 in Chicago, IL*](https://popup.dominodatalab.com/chicago/)
@@ -41,6 +41,6 @@ The resulting package goes beyond “getting stuff done”. tidycf also increase
 Video on [RStudio website](https://www.rstudio.com/resources/videos/tidycf-turning-analysis-on-its-head-by-turning-cashflows-on-their-sides/)  
 Slides on [Slideshare](https://www.slideshare.net/EmilyRiederer/tidycf-turning-cashflows-on-their-sides-to-turn-analysis-on-its-head)
 
-## Designing Empathetic Internal Tools {#eee}
+## Designing Empathetic and Empowering Internal Tools {#eee}
 
 *Coming soon!*
