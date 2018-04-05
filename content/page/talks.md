@@ -59,7 +59,7 @@ Other rstudio::conf talks on the [RStudio website](https://www.rstudio.com/resou
 
 Tech companies place a premium on user experience. However, this laser-focus on users’ needs is too often missing from the design and development of internal analytical tools. This talk will explore what can be learned from open source development and the open science movement about building sustainable, accessible tools to fuel a vibrant “innersource” community.
 
-Based on experience developing internal R packages at Capital One, this talk proposes the analyst-driven development paradigm for tools development. By reframing work from generating analyses to building reproducible analytical pipelines, analysts can efficiently prototype effective tools as a simple byproduct of business-as-usual work.
+Based on experience developing internal R packages at Capital One, this talk proposes the analyst-driven development paradigm for tools development. By reframing work from generating analyses to building reproducible analytical pipelines, analysts can efficiently deliver effective prototypes and finished tools as a simple byproduct of business-as-usual work.
 
 More broadly, we will examine why empathy, empowerment, and engagement are the keys to successful open source and innersource projects, and how analyst-driven development deliberately yet seamlessly invokes these concepts into every step of the development process - from toolset curation to community building.
 
