@@ -63,4 +63,4 @@ Based on experience developing internal R packages at Capital One, this talk pro
 
 More broadly, we will examine why empathy, empowerment, and engagement are the keys to successful open source and innersource projects, and how analyst-driven development deliberately yet seamlessly invokes these concepts into every step of the development process - from toolset curation to community building.
 
-We will share best practices and lessons learned at Capital One - ranging from broad design philosophy to our specific recommended R-based workflows - to motivate analysts to productionalize their analysis, develop better tools, and drive innovation within their own organizations.
+We will share best practices and lessons learned at Capital One - ranging from broad design philosophy to a specific R-based workflows - to motivate analysts to productionalize their analysis, develop better tools, and drive innovation within their own organizations.
