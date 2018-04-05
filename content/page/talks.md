@@ -54,7 +54,7 @@ Other rstudio::conf talks on the [RStudio website](https://www.rstudio.com/resou
 
 ## Designing Empathetic, Empowering, and Engaging Internal Tools {#eee}
 
-*Materials coming soon!*
+*Materials coming soon!*   
 *Similar talk to be given at* [*OSCON 2018*](https://conferences.oreilly.com/oscon/oscon-or)
 
 Tech companies place a premium on user experience. However, this laser-focus on users’ needs is too often missing from the design and development of internal analytical tools. This talk will explore what can be learned from open source development and the open science movement about building sustainable, accessible tools to fuel a vibrant “innersource” community.
