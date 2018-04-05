@@ -9,7 +9,7 @@ I really enjoy sharing ideas - whether that be in person, in direct messages, on
 
 - [What's in your Workflow?: Data science workflows for business analysis](#wiyw)
 - [tidycf: Turning business analysis on its head by turning cashflows on their sides](#tidycf)
-- [Designing empathetic and empowering internal tools](#eee)
+- [Designing empathetic, empowering, and engaging internal tools](#eee)
 
 ## What's in your Workflow?: Data science workflows for business analysis {#wiyw}
 [*Domino Data Pop-Up, November 2017 in Chicago, IL*](https://popup.dominodatalab.com/chicago/)
@@ -52,6 +52,6 @@ Other rstudio::conf talks on the [RStudio website](https://www.rstudio.com/resou
 <p/>
 
 
-## Designing Empathetic and Empowering Internal Tools {#eee}
+## Designing Empathetic, Empowering, and Engaging Internal Tools {#eee}
 
 *Coming soon!*
