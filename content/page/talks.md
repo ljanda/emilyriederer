@@ -5,11 +5,11 @@ comments: no
 
 I really enjoy sharing ideas - whether that be in person, in direct messages, on Twitter threads, etc. Here, I share materials from these talks. Please reach out if you're interested to talk more about any of these topics!
 
-**Jump to a talk:**
+**Do you want to hear about:**
 
-- [What's in your Workflow?: Data science workflows for business analysis](#wiyw)
-- [tidycf: Turning business analysis on its head by turning cashflows on their sides](#tidycf)
-- [Designing empathetic, empowering, and engaging internal tools](#eee)
+- How corporations and their analysts can benefit from adapting a data science mindset? Then check out [What's in your Workflow?: Data science workflows for business analysis](#wiyw)
+- A package I developed at work for discounted cashflow valuations analysis? Then check out [tidycf: Turning business analysis on its head by turning cashflows on their sides](#tidycf)
+- A framework for inner-source tools and culture? The check out [Designing empathetic, empowering, and engaging internal tools](#eee)
 
 ## What's in your Workflow?: Data science workflows for business analysis {#wiyw}
 [*Domino Data Pop-Up, November 2017 in Chicago, IL*](https://popup.dominodatalab.com/chicago/)
