@@ -30,7 +30,7 @@ Slides on [Slideshare](https://www.slideshare.net/EmilyRiederer/whats-in-your-wo
 
 ## tidycf: turning business analysis on its side by turning cashflows on their heads {#tidycf}
 [*rstudio::conf, January 2018 in San Diego, CA*](https://www.rstudio.com/conference/)   
-*Similar talks given at* [*EARL Boston 2017*](https://earlconf.com/2017/boston/), * RLadies Chicago, and internal company conferences*  
+*Similar talks given at* [*EARL Boston 2017*](https://earlconf.com/2017/boston/), *RLadies Chicago*, *and internal company conferences*  
 
 Statistical computing has revolutionized predictive modeling, but financial modeling lags in innovation. At Capital One, valuations analysis required legacy SAS platforms, obscure data lineage, and cumbersome Excel cashflow statements. This talk describes development of the tidycf R package to reinvent this process as a seamless, end-to-end workflow.
 
