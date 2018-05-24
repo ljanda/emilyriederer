@@ -9,7 +9,7 @@ I really enjoy sharing ideas - whether that be in person, in direct messages, on
 
 - How corporations and their analysts can benefit from adapting a data science mindset? Then check out [*What's in your Workflow?: Data science workflows for business analysis*](#wiyw)
 - A package I developed at work for discounted cashflow valuations analysis? Then check out [*tidycf: Turning business analysis on its head by turning cashflows on their sides*](#tidycf)
-- A framework for inner-source tools and culture? Then check out [*Designing empathetic, empowering, and engaging internal tools*](#eee)
+- A framework for inner-source tools and culture? Then check out [*Designing empathetic, empowering, and engaging internal tools for analytics*](#deee)
 
 ## What's in your Workflow?: Data science workflows for business analysis {#wiyw}
 [*Domino Data Pop-Up, November 2017 in Chicago, IL*](https://popup.dominodatalab.com/chicago/)
@@ -52,10 +52,9 @@ Other rstudio::conf talks on the [RStudio website](https://www.rstudio.com/resou
 <p/>
 
 
-## Designing Empathetic, Empowering, and Engaging Internal Tools {#eee}
-
-*Materials coming soon!*   
-*Similar talk to be given at* [*OSCON 2018*](https://conferences.oreilly.com/oscon/oscon-or)
+## Designing Empathetic, Empowering, and Engaging Internal Tools {#deee}
+[*International Data Engineering and Science Association (IDEASS) 2018*](https://www.ideassn.org/chicago-2018/) 
+*Similar talk to be given at* [*OSCON 2018*](https://conferences.oreilly.com/oscon/oscon-or), [*EARL Boston 2018*](https://earlconf.com/2018/boston/)
 
 Tech companies place a premium on user experience. However, this laser-focus on users’ needs is too often missing from the design and development of internal analytical tools. This talk will explore what can be learned from open source development and the open science movement about building sustainable, accessible tools to fuel a vibrant “innersource” community.
 
