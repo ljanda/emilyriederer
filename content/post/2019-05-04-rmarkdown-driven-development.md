@@ -71,7 +71,7 @@ Of course, in this step, do be careful of being too "prescient". If some of your
 
 ![](/img/rmarkdown-driven-development/proj-to-pack-1.PNG)
 
-Reorganization offers other clear benefits, one of which is that code with similar purposes ends up physically closer in your document. This may make it easier for you to spot similarities. As you notice similarities in different chunks of wrangling or reporting chunks, keep in mind [the rule of three](https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming). That is, similar code repeated multiple times should be turned into a function. 
+Reorganization offers other clear benefits, one of which is that code with similar purposes ends up physically closer in your document. This may make it easier for you to spot similarities. As you notice similarities in different chunks of wrangling or reporting chunks, keep in mind [the rule of three](https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming)). That is, similar code repeated multiple times should be turned into a function. 
 
 For example, I often encounter situations where I need to produce the same plots or tables for many different groups. While an analyst is in exploratory mode, they might reasonably copy-paste such code, edit some key parameters, and eagerly proceed to analyzing the results. Coverting this code to functions makes is significantly easier to test and maintain. It also has the benefit of converting Reporting code into Infrastructure code which can be moved to the top of the RMarkdown, with the previously described benefits. Generally, I define any local functions after my `library()` and `source()` commands. 
 
