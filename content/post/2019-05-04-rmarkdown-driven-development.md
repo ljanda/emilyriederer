@@ -3,10 +3,10 @@ title: RMarkdown Driven Development
 author: Emily Riederer
 date: '2019-05-04'
 tags:
+  - pkgdev
   - rmarkdown
-  - pkgden
-  - workflow
   - rstats
+  - workflow
 slug: rmarkdown-driven-development
 ---
 
