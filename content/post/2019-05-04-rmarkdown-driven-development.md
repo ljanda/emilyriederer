@@ -117,6 +117,6 @@ It's also instructive to notice the *differences* between projects and packages.
 
 More importantly, I encourage *project* developers to consider whether they shouldn't be including this level of detail even if they never plan to make a package. Even if your functions are just for you, don't you want to trust them and remember how to use them when you revisit your project next quarter or year?
 
-## That's Wrap!
+## That's a Wrap!
 
 Voila! Now our humble RMarkdown has evolved all the way into a complete R package. Again, is this always necessary? Definitely not. Is it always advisable? No. But regardless of what end-state you want to leave your RMarkdown in, it's always worth considering how it can be groomed towards becoming a more sustainable data product. 
