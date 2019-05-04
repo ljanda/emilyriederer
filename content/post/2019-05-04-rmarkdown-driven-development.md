@@ -65,6 +65,8 @@ The rationale for front-loading a lot of wrangling chunks is similar. Because th
 
 Of course, in this step, do be careful of being too "prescient". If some of your data wrangling chunks are motivated by certain output and discussion later in your file, it may be confusing for this computation to be removed from its context and placed at the beginning. I'm reasonably convicted about this advice for creating standardized reporting frameworks, but I caution that the best structure becomes far more subjective for more creative analyses.
 
+> **Bonus Points** Now that your data load chunks are right at the top of your script, consider adding validation for the data getting loaded. Is it the same form that your code expects? Does it have the right variable names and types? Does it meet any logical checks or assumptions you deem necessary? A few good packages for this are [`validate`](https://cran.r-project.org/web/packages/validate/index.html) and [`assertr`](https://cran.r-project.org/web/packages/assertr/index.html). Depending on your project, you could put these in a separate code chunk with the chunk option `include = FALSE` so that data validation can be run manually or include them in you script to throw errors and prevent attempt to render incorrect data structures.
+
 ## (3) Reduce Duplication with Functions {#functions}
 
 ![](/img/rmarkdown-driven-development/proj-to-pack-1.PNG)
@@ -74,6 +76,8 @@ Reorganization offers other clear benefits, one of which is that code with simil
 For example, I often encounter situations where I need to produce the same plots or tables for many different groups. While an analyst is in exploratory mode, they might reasonably copy-paste such code, edit some key parameters, and eagerly proceed to analyzing the results. Coverting this code to functions makes is significantly easier to test and maintain. It also has the benefit of converting Reporting code into Infrastructure code which can be moved to the top of the RMarkdown, with the previously described benefits. Generally, I define any local functions after my `library()` and `source()` commands. 
 
 For good advice on *how* to modularize your functions, including naming^[Which is all to say that the illustration is, as it sounds, for illustrative purposes only. Please, please, please do not ever actually name a function anything as undescriptive as `viz_fx()` or `viz_fx2()`!] and behavior, I recommmend [Maelle Salmon's blog post](https://masalmon.eu/2017/12/11/goodrpackages/) and [rOpenSci's package development guide](https://ropensci.github.io/dev_guide/building.html).
+
+> **Bonus Points** Now that you have functions, it's a good time to think about testing them. You could add a few tests of your functions in a chunk with `include = FALSE` as described in the last section for data validation. One helpful package here is [`testthat`](https://testthat.r-lib.org/). Even if you don't include these in your RMarkdown, save any informal tests you run in a text file. They will be useful if you decide to turn your analysis all the way into a [package](#package)
 
 ## (4) Convert Your RMarkdown to Project {#project}
 
@@ -93,6 +97,8 @@ There are many recommendations online for folder structures, but when modularizi
 - `output`: Intermediate data objects created in my analysis. Typically, I save these as RDS files (with `saveRDS` and `readRDS`)
 - `doc`: Any long form documentation or set-up instructions I wish to include
 - `ext`: Any miscellaneous external files that take partin my analysis
+
+> **Bonus Points** Now that you have a project, consider taking a more proactive stance on package management to ensure the future user has correct / compatible versions of any packages on which your project relies. As of writing this, RStudio's new package management solution [`renv`](https://rstudio.github.io/renv/) is still in development, but follow that project for more details!
 
 ## (5) Convert Your Project to a Package {#package}
 
